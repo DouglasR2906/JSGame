@@ -6,7 +6,6 @@ let numeroAletorio = gerarNumeroAleatorio();
 iniciar();
 
 function gerarNumeroAleatorio() {
-  console.log(listaDeNumerosSorteados);
   let numeroSorteado = parseInt(Math.random() * range + 1);
   if (listaDeNumerosSorteados.length == possibilidades) {
     listaDeNumerosSorteados = [];
